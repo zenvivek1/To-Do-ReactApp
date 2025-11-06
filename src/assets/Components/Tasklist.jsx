@@ -42,7 +42,7 @@ function set(e){
                   onClick={() => {
                     setSelected(e), settaskView(true)
                   }}
-                  className="py-2 px-6 bg-amber-300 text-black font-semibold absolute right-5 top-2 rounded-md cursor-pointer"
+                  className="sm:py-2 px-6 bg-amber-300 text-black font-semibold sm:absolute mt-2 py-1 sm:mt-0 block right-5 top-2 rounded-md cursor-pointer"
                 >
                   View
                 </button>
