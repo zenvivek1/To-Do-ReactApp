@@ -23,7 +23,7 @@ function set(e){
 
   return (
     <>
-      <div className="w-full min-h-80 bg-zinc-700 p-10">
+      <div className="w-full min-h-80 bg-zinc-700 p-5 lg:p-10">
         {taskData === null && (
           <p className="opacity-50">
             There's no task left... Click Create Task To Add A Task
@@ -42,7 +42,7 @@ function set(e){
                   onClick={() => {
                     setSelected(e), settaskView(true)
                   }}
-                  className="sm:py-2 px-6 bg-amber-300 text-black font-semibold sm:absolute mt-2 py-1 sm:mt-0 block right-5 top-2 rounded-md cursor-pointer"
+                  className="sm:py-2 scale-90 lg:scale-1 px-6 bg-amber-300 text-black font-semibold sm:absolute mt-2 py-1 sm:mt-0 block right-5 top-2 rounded-md cursor-pointer"
                 >
                   View
                 </button>
