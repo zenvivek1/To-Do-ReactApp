@@ -33,7 +33,7 @@ function set(e){
           return (
             <>
               <div
-                className={`w-full bg-zinc-600 px-10 mb-3 py-4 ${
+                className={`w-full bg-zinc-600 px-8 mb-3 py-4 ${
                   e.isCompleted && "line-through decoration-2"
                 } font-semibold relative overflow-clip `}
               >
@@ -42,7 +42,7 @@ function set(e){
                   onClick={() => {
                     setSelected(e), settaskView(true)
                   }}
-                  className="sm:py-2 scale-90 lg:scale-100 px-6 bg-amber-300 text-black font-semibold sm:absolute mt-2 py-1 sm:mt-0 block right-5 top-2 rounded-md cursor-pointer"
+                  className="sm:py-2 scale-90 lg:scale-100 px-6 bg-amber-300 -ml-1 text-black font-semibold sm:absolute mt-2 py-1 sm:mt-0 block right-5 top-2 rounded-md cursor-pointer"
                 >
                   View
                 </button>
